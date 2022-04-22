@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-size: 62.5%;
+}
+.fsz-3{
+    font-size: 3rem;
+}
+.fsz-5{
+    font-size: 5rem;
+}
+.fsz-10{
+    font-size: 10rem;
+}
+
+.color-principal{
+    color: #D2D2D2;
+}
+
+.color-secundario{
+    color: #222222;
+}
+
+.header.inicio{
+    background-image: url(../img/fondo.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+    min-height: 60rem;
+    
+}
+.barranavegacion{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 1rem;
+
+    h1{
+        font-size: 5rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: #D2D2D2;
+        }
+        
+}
+
+.navegacion {
+    ul{
+        list-style: none;
+        
+        a{
+            color:rgba(210,210,210,0.8);
+            text-decoration: none;
+            font-size: 2.5rem;
+            margin-right:2rem;
+            padding-right: 1.5rem;
+            
+            &:last-of-type{
+                margin: 0;
+            }
+            &:hover{
+                color:rgba(255,255,255,0.8)
+            }
+        }
+    }
+}
+
+.encabezado{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color:rgba(210,210,210,0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15rem;
+    align-items: center;
+    align-content: center;
+    
+    h2{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 5rem;
+    }
+}
+
+
+.encabezadofooter {
+    h2{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+    }
+}
+.encabezado {
+    p{
+        font-size: 1.8rem;
+    }
+}
+
+.fondo-footer{
+    background-color: #D2D2D2;
+}
+
+.redes-sociales-footer{
+    a{
+        img{
+            transition:0.3s;
+            
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.ocultar{
+    display: none;
+}
+
+.header{
+    background-color:#303134;
+    padding: 5rem 0 4.8rem 0;
+}
